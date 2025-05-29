@@ -14,7 +14,7 @@ public class eShopCase2 extends BaseTest {
 
 @BeforeMethod
     public void preSetup() {
-    System.out.println("helllooooooooooooooooooo");
+    System.out.println("helllooooooooooooooooo");
     Activity activity = new Activity("com.androidsample.generalstore", "com.androidsample.generalstore.MainActivity");
 //driver.startActivity(activity);
     ((JavascriptExecutor) driver).executeScript("mobile:startActivity", ImmutableMap.of("intent", "com.androidsample.generalstore/com.androidsample.generalstore.SplashActivity"));
