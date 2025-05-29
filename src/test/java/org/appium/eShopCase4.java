@@ -21,7 +21,7 @@ public class eShopCase4 extends BaseTest {
         driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"));"));
         driver.findElement(By.xpath("//android.widget.TextView[@text='Argentina']")).click();
         driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/btnLetsShop")).click();
-        Thread.sleep(3000);
+        Thread.sleep(4000);
 
     }
 }
